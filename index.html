@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link href="css.css" rel="stylesheet">
+    </head>
+<body>
+    <nav>
+        <a href="/moppengenerator">
+            <button type="submit" class="navbutton">Moppengenerator</button>
+        </a>
+    </nav>
+      <p align="center" id="naam">Klik hier onder om je naam aan te passen</p>
+      <div align="center">
+<button class="myButton" onclick="alert()" id="welkom">Pas je naam aan</button></div>
+<!--Loeck Swinkels-->
+ <div id="Loeck" class="blurBox">
+    <h1 align="center">Loeck Swinkels</h1>
+    <p align="center">Loeck Swinkels is de beste sing- and songwriter van Nederland dus ga hem allemaal streamen op spotify.</p>
+    <div align="center">
+  <a target="_blank" href="https://open.spotify.com/artist/2M1XG4tCiZUhI7dXdRrjaB">
+  <button type="submit" class="loeckbutton">Loeck op spotify</button>
+</a>
+</div>
+  </div>
+  <!--Love Tester-->
+  <div id="lovetester" class="blurBox">
+      <h1 align="center"><font color="#ff66ff">Love Tester</font></h1>
+Naam 1: <input id="text1"><br>
+Naam 2: <input id="text2"><br>
+<p id="percentage"></p>
+<progress id="progress" max="100">
+</progress>
+<button id="tester" onclick="lovetester()" >Test de liefde!</button>
+<p id="sixtynine"></p>
+  </div>
+<!--Time-->
+  <div id="time" class="blurBox">
+    <button class="timebutton" onclick="getTime()">Klik voor tijd</button>
+          <h1 class="time" id="Time"></h1>
+      </div>
+    <script src="js.js"></script>
+    </body>
+</html>

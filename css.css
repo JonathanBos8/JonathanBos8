@@ -1,0 +1,161 @@
+@media screen and (min-width:0px) and (max-width:1080px) {
+    #lovetester {
+        width:80%!important;
+        height:15%!important;
+        margin-top:45rem!important;
+    }
+    #progress {
+      height:40px!important;
+      width:400px!important;
+      top:7rem!important;
+    }
+    #percentage {
+        top:9rem!important;
+        right:8rem!important;
+    }
+    #Loeck {
+      width:80%!important;
+      height:15%!important; 
+      left:2%!important;
+      margin-top:25rem!important;
+    }
+    .loeckbutton {
+	margin-top:3rem!important;
+    }
+    #time {
+    left: 2%;
+    position: absolute;
+    display: inline-block;
+    width:80%!important;
+    height:10%!important;
+    margin-top:10rem!important;
+    padding:2rem;
+    }
+    .timebutton {
+    margin-top:1rem!important;
+    }
+}
+body {
+    font-family: roboto;
+    background-image: url("https://images.alphacoders.com/204/thumb-1920-204873.jpg");
+    color: white;
+}
+img[alt="www.000webhost.com"] {
+    display: none;
+}
+.myButton {
+    margin-top:3%;
+	background-color:#cc0000;
+	border-radius:10px;
+	border:8px solid #cc0000;
+	padding:16px 31px;
+	color: white;
+	font-weight:bold;
+	transition: background-color .3s;
+}
+.myButton:hover {
+	background-color: #ff3333;
+}
+#Loeck {
+    right: 2%;
+    position: absolute;
+    display: inline-block;
+    width: 33%;
+    margin-top: 10rem;
+    padding: 2rem;
+}
+  .blurBox {
+    opacity: 1;
+    border-radius: .5rem;
+    background-color: #3abfe0;
+    transition: opacity .4s;
+}
+.blurBox:hover {
+    opacity: 1;   
+}
+.loeckbutton {
+    background-color:#cc0000;
+	border-radius:10px;
+	border:8px solid #cc0000;
+	padding:16px 31px;
+	color: white;
+	font-weight:bold;
+	transition: background-color .3s;
+}
+.loeckbutton:hover {
+	background-color: #ff3333;
+}
+#lovetester {
+    left: 2%;
+    position: absolute;
+    display: inline-block;
+    width: 33%;
+    margin-top: 30rem;
+    padding: 2rem;
+}
+#tester {
+   background-color:#ff66ff;
+	border-radius:10px;
+	border:8px solid #ff66ff;
+	padding:16px 31px;
+	color: white;
+	font-weight:bold;
+	transition: background-color .3s;
+	margin-left:9%;
+	margin-top:3%;
+}
+#tester:hover {
+	background-color: #ff99ff;
+}
+#percentage {
+    display:inline-block;
+    position:absolute;
+    right:6rem;
+    top:6rem;
+    font-weight:bold;
+    font-size:3rem;
+}
+#progress {
+    display:inline-block;
+    position:absolute;
+    right:3rem;
+    top:8rem;
+    color:#ff66ff;
+    height:20px;
+    width:250px;
+}
+#time {
+    left: 2%;
+    position: absolute;
+    display: inline-block;
+    width: 33%;
+    margin-top: 10rem;
+    padding: 2rem;
+    text-align: center;
+}
+.timebutton {
+    background-color:#cc0000;
+	border-radius:10px;
+	border:8px solid #cc0000;
+	padding:16px 31px;
+	color: white;
+	font-weight:bold;
+	transition: background-color .3s;
+	margin-left:35%;
+	text-align: center;
+}
+.timebutton:hover {
+	background-color: #ff3333;
+}
+.navbutton {
+    background-color:#cc0000;
+	border-radius:10px;
+	border:8px solid #cc0000;
+	padding:16px 31px;
+	color: white;
+	font-weight:bold;
+	transition: background-color .3s;
+}
+.navbutton:hover {
+	background-color: #ff3333;
+}
