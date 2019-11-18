@@ -1,3 +1,26 @@
 h1 {
     text-align:center;
 }
+body {
+    font-family: roboto;
+    background-image: url("https://images.alphacoders.com/204/thumb-1920-204873.jpg");
+    color: white;
+}
+#moppentrommel {
+    position: absolute;
+    left: calc(50% - 544px);
+    display: inline-block;
+    width: 66%;
+    height: 50%;
+    margin-top: 8rem;
+    padding: 2rem;
+}
+  .blurBox {
+    opacity: 1;
+    border-radius: .5rem;
+    background-color: #3abfe0;
+    transition: opacity .4s;
+}
+.blurBox:hover {
+    opacity: 1;
+}

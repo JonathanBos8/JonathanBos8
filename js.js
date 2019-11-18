@@ -15,10 +15,9 @@ function lovetester() {
   document.getElementById("tester").setAttribute('onclick',"removeNames()")
   document.getElementById("tester").innerHTML = "Haal de namen weg"
   }
-  if (random = "69") {
+  if (random == "69") {
       document.getElementById("sixtynine").innerHTML = "Nice ¬‿¬"
   }
-  
 }
 function removeNames() {
  document.getElementById("text1").value = ""
@@ -27,7 +26,7 @@ function removeNames() {
  document.getElementById("tester").innerHTML = "Test de liefde!"
  document.getElementById("progress").value = null;
  document.getElementById("percentage").innerHTML = "0" + "%";
- 
+
 }
 function addZero(i) {
   if (i < 10) {
