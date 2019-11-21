@@ -3,7 +3,7 @@ h1 {
 }
 body {
     font-family: roboto;
-    background-image: url("https://images.alphacoders.com/204/thumb-1920-204873.jpg");
+    background-image: url("https://images.unsplash.com/photo-1516797045820-6edca89b2830?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
     color: white;
 }
 #moppentrommel {
@@ -24,21 +24,22 @@ body {
     opacity: 1;
 }
 .navbutton {
-    background-color:#cc0000;
+    background-color:black;
 	border-radius:16px;
-	border:8px solid #cc0000;
+	border:8px solid black;
 	padding:16px 31px;
 	color: white;
 	font-weight:bold;
+  font-size:20px;
 	transition: background-color .3s;
 }
 .navbutton:hover {
-	background-color: #ff3333;
+	background-color: #cc0000;
 }
 nav {
   position: fixed;
   width: 100%;
-  height: 95px;
+  height: 70px;
   top: 0px;
   background-color: black;
 }
