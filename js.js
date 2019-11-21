@@ -26,6 +26,7 @@ function removeNames() {
  document.getElementById("tester").innerHTML = "Test de liefde!"
  document.getElementById("progress").value = null;
  document.getElementById("percentage").innerHTML = "0" + "%";
+ document.getElementById("sixtynine").innerHTML = ""
 
 }
 function addZero(i) {
