@@ -8,7 +8,7 @@ function alert() {
 function lovetester() {
   var input1 = document.getElementById("text1").value
   var input2 = document.getElementById("text2").value
-  var random = Math.floor(Math.random() * 100)
+  var random = Math.floor(Math.random() * 101)
   if (input1 !== "" && input2 !== "") {
   document.getElementById("percentage").innerHTML = random + "%";
   document.getElementById("progress").value = random;
@@ -26,6 +26,7 @@ function removeNames() {
  document.getElementById("tester").innerHTML = "Test de liefde!"
  document.getElementById("progress").value = null;
  document.getElementById("percentage").innerHTML = "0" + "%";
+ document.getElementById("sixtynine").innerHTML = ""
 
 }
 function addZero(i) {

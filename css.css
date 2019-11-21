@@ -42,12 +42,12 @@ body {
 }
 #Naam {
   position: absolute;
-  left: calc(50% - 146.085px);
+  left: calc(50% - 90.875px);
   margin-top: 8rem;
   display: inline-block;
 }
 #naam {
-  left: calc(50% - 90.875px);
+  text-align: center;
 }
 .myButton {
     margin-top:3%;
@@ -152,6 +152,7 @@ body {
 	transition: background-color .3s;
 	margin-left:35%;
 	text-align: center;
+	left: calc(50% - 79.365);
 }
 .timebutton:hover {
 	background-color: #ff3333;
@@ -171,6 +172,7 @@ body {
 nav {
   position: fixed;
   width: 100%;
+  height: 95px;
   top: 0px;
   background-color: black;
 }
