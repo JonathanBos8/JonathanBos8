@@ -47,7 +47,7 @@ body {
   display: inline-block;
 }
 #naam {
-  left: calc(50% - 90.875px);
+  text-align: center;
 }
 .myButton {
     margin-top:3%;
