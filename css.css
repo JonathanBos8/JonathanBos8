@@ -157,9 +157,9 @@ body {
 	background-color: #ff3333;
 }
 .navbutton {
-    background-color:#cc0000;
+    background-color:black;
 	border-radius:16px;
-	border:8px solid #cc0000;
+	border:8px solid black;
 	padding:16px 31px;
 	color: white;
 	font-weight:bold;

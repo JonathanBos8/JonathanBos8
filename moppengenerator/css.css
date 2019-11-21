@@ -8,8 +8,7 @@ body {
 }
 #moppentrommel {
     position: absolute;
-    left: calc(50% - 544px);
-    display: inline-block;
+    left: calc(50% - 33%);
     width: 66%;
     height: 50%;
     margin-top: 8rem;
