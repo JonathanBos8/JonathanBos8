@@ -1,203 +1,26 @@
-@media screen and (min-width:0px) and (max-width:1080px) {
-    #lovetester {
-        width:80%!important;
-        height:15%!important;
-        margin-top:45rem!important;
-    }
-    #progress {
-      height:40px!important;
-      width:400px!important;
-      top:7rem!important;
-    }
-    #percentage {
-        top:9rem!important;
-        right:8rem!important;
-    }
-    #Loeck {
-      width:80%!important;
-      height:15%!important;
-      left:2%!important;
-      margin-top:25rem!important;
-    }
-    .loeckbutton {
-	margin-top:3rem!important;
-    }
-    #time {
-    left: 2%;
-    position: absolute;
-    display: inline-block;
-    width:80%!important;
-    height:10%!important;
-    margin-top:10rem!important;
-    padding:2rem;
-    }
-    .timebutton {
-    margin-top:1rem!important;
-    }
-}
 body {
-    font-family: roboto;
-}
-#Naam {
-  position: absolute;
-  left: calc(50% - 90.875px);
-  margin-top: 8rem;
-  display: inline-block;
-}
-#naam {
-  text-align: center;
-}
-.myButton {
-    margin-top:3%;
-	background-color:#cc0000;
-	border-radius:10px;
-	border:8px solid #cc0000;
-	padding:16px 31px;
-	color: white;
-	font-weight:bold;
-	transition: background-color .3s;
-}
-.myButton:hover {
-	background-color: #ff3333;
-}
-#Loeck {
-    right: 2%;
-    position: absolute;
-    display: inline-block;
-    width: 33%;
-    margin-top: 10rem;
-    padding: 2rem;
-}
-  .blurBox {
-    opacity: 1;
-    border-radius: .5rem;
-    background-color: #3abfe0;
-    transition: opacity .4s;
-}
-.blurBox:hover {
-    opacity: 1;
-}
-.loeckbutton {
-    background-color:#cc0000;
-	border-radius:10px;
-	border:8px solid #cc0000;
-	padding:16px 31px;
-	color: white;
-	font-weight:bold;
-	transition: background-color .3s;
-}
-.loeckbutton:hover {
-	background-color: #ff3333;
-}
-#loeckbutton {
-  text-align: center;
-}
-#lovetester {
-    left: 2%;
-    position: absolute;
-    display: inline-block;
-    width: 33%;
-    margin-top: 30rem;
-    padding: 2rem;
-}
-#tester {
-   background-color:#ff66ff;
-	border-radius:10px;
-	border:8px solid #ff66ff;
-	padding:16px 31px;
-	color: white;
-	font-weight:bold;
-	transition: background-color .3s;
-	margin-left:9%;
-	margin-top:3%;
-}
-#tester:hover {
-	background-color: #ff99ff;
-}
-#percentage {
-    display:inline-block;
-    position:absolute;
-    right:6rem;
-    top:6rem;
-    font-weight:bold;
-    font-size:3rem;
-}
-#progress {
-    display:inline-block;
-    position:absolute;
-    right:3rem;
-    top:8rem;
-    color:#ff66ff;
-    height:20px;
-    width:250px;
-}
-#sixtynine {
-  left: 60%;
-}
-#time {
-    left: 2%;
-    position: absolute;
-    display: inline-block;
-    width: 33%;
-    margin-top: 10rem;
-    padding: 2rem;
-    text-align: center;
-}
-.timebutton {
-    background-color:#cc0000;
-	border-radius:10px;
-	border:8px solid #cc0000;
-	padding:16px 31px;
-	color: white;
-	font-weight:bold;
-	transition: background-color .3s;
-	margin-left:35%;
-	text-align: center;
-	left: calc(50% - 79.365);
-}
-.timebutton:hover {
-	background-color: #ff3333;
-}
-.navbutton {
-  background-color:white;
-	border-radius:16px;
-	border:8px solid white;
-	padding:8px 16px;
-	color: black;
-	font-weight:bold;
-  font-size: 20px;
-	transition: background-color .8s;
-  margin-top: -7.5px;
-}
-.navbutton:hover {
-	background-color: #cc0000;
-  border: 8px solid #cc0000;
-}
-nav {
-  position: fixed;
-  width: 100%;
-  height: 70px;
-  top: 0px;
-  background-color: white;
-  z-index: 100;
-}
-nav li {
-  float: left;
-  margin-left: 1rem;
-}
-nav ul {
-  list-style: none;
+  color: black;
 }
 h1 {
   text-align: center;
-  color: white;
 }
 p {
   text-align: center;
-  color: white;
 }
-#streep {
-  text-align: center;
-  margin-top: 0px;
-  font-size: 30px;
+.overMij {
+  padding: 2rem;
+  background-color: #3abfe0;
 }
+.button {
+  background-color: black;
+  border-radius:16px;
+  border:8px solid black;
+  padding:8px 16px;
+  color: blue;
+  font-weight:bold;
+  font-size:20px;
+  transition: background-color .8s;
+}
+.button:hover {
+	background-color: #cc0000;
+  border: 8px solid black;
