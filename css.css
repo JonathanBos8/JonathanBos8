@@ -179,6 +179,7 @@ nav {
   height: 70px;
   top: 0px;
   background-color: white;
+  z-index: 100;
 }
 nav li {
   float: left;
@@ -197,6 +198,6 @@ p {
 }
 #streep {
   text-align: center;
-  margin-top: 12px;
+  margin-top: 0px;
   font-size: 30px;
 }
