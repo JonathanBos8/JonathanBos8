@@ -23,7 +23,7 @@ p {
   transition: background-color .8s;
 }
 .button:hover {
-	background-color: #cc0000;
+	background-color: #454752;
   border: 8px solid black;
 }
 .Loeck {
@@ -34,4 +34,19 @@ p {
 .loeckbutton {
   width: 40%;
   margin-left: calc(50% - 20%);
+}
+.handigeLinks {
+  padding: 2rem;
+  background-color: #3abfe0;
+  border-radius: .5rem;
+}
+.shortcutsimg {
+    width: 3rem;
+    margin-right: 1rem;
+    height: 3rem;
+    border-radius: .5rem;
+}
+.linkbutton {
+  width: 80%;
+  margin-left: calc(50% - 40%);
 }
