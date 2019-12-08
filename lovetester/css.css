@@ -1,0 +1,43 @@
+.lovetester {
+  padding: 2rem;
+  background-color: #3abfe0;
+  border-radius: .5rem;
+  height: 750px;
+}
+#tester {
+   background-color:#ff66ff;
+    border-radius:10px;
+    border:8px solid #ff66ff;
+    padding:16px 31px;
+    color: white;
+    font-weight:bold;
+    transition: background-color .3s;
+    margin-left:9%;
+    margin-top:3%;
+}
+#tester:hover {
+    background-color: #ff99ff;
+}
+#percentage {
+    display:inline-block;
+    position:absolute;
+    margin-left: 80%;
+    font-weight:bold;
+    font-size:3rem;
+}
+#progress {
+    display:inline-block;
+    position:absolute;
+    right:3rem;
+    top:8rem;
+    color:#ff66ff;
+    height:20px;
+    width:250px;
+}
+#sixtynine {
+  left: 60%;
+}
+.namen {
+  margin-left: -50%;
+  font-size: 30px;
+}

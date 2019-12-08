@@ -1,30 +1,8 @@
-body {
-  color: black;
-}
-h1 {
-  text-align: center;
-}
-p {
-  text-align: center;
-}
+
 .overMij {
   padding: 2rem;
   background-color: #3abfe0;
   border-radius: .5rem;
-}
-.button {
-  background-color: black;
-  border-radius:16px;
-  border:8px solid black;
-  padding:8px 16px;
-  color: white;
-  font-weight:bold;
-  font-size:20px;
-  transition: background-color .8s;
-}
-.button:hover {
-	background-color: #454752;
-  border: 8px solid black;
 }
 .Loeck {
     padding: 2rem;
