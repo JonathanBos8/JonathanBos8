@@ -3,11 +3,13 @@
   background-color: #3abfe0;
   border-radius: .5rem;
   height: 750px;
+  position: relative;
 }
 .nieuwemop {
-  width: 40%;
-  margin-left: calc(50% - 20%);
-  margin-top: 400px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 70%;
 }
 #Mop {
   text-align: center;
@@ -17,4 +19,9 @@
   height: 200px;
   margin-top: 100px;
   margin-left: 50px;
+}
+@media screen and (min-width:0px) and (max-width:1000px) {
+  .col-md-8 {
+    margin: 1rem;
+  }
 }

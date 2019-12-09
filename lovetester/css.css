@@ -5,18 +5,10 @@
   height: 750px;
 }
 #tester {
-   background-color:#ff66ff;
-    border-radius:10px;
-    border:8px solid #ff66ff;
-    padding:16px 31px;
-    color: white;
-    font-weight:bold;
-    transition: background-color .3s;
-    margin-left:9%;
-    margin-top:3%;
-}
-#tester:hover {
-    background-color: #ff99ff;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 70%;
 }
 #percentage {
     display:inline-block;
@@ -40,4 +32,37 @@
 .namen {
   margin-left: -50%;
   font-size: 30px;
+}
+@media screen and (min-width:0px) and (max-width:1000px) {
+  .col-md-8 {
+    margin: 1rem;
+  }
+  .namen {
+    font-size: 20px;
+    position: absolute;
+    left: 70%;
+    top: 15%;
+    width: 60%;
+  }
+  #progress {
+    display:inline-block;
+    position:absolute;
+    right:3rem;
+    top:8rem;
+    color:#ff66ff;
+    height:20px;
+    width: 50%;
+    left: calc(50% - 25%);
+    top: 40%;
+  }
+  #percentage {
+      display: inline-block;
+      position:absolute;
+      font-weight:bold;
+      font-size:3rem;
+      top: 45%;
+      margin-left: calc(50% - 15%);
+      width:20%;
+
+
 }
