@@ -24,3 +24,46 @@ p {
 button:focus {
   outline: 0!important;
 }
+footer {
+  background-color: #212529;
+  width: 100%;
+  position: relative;
+  float: left;
+  color: white;
+}
+footer ul {
+  list-style-type: none;
+}
+.school {
+  display:inline-block;
+  width: 33%;
+}
+.socials {
+  display: inline-block;
+  width: 33%;
+}
+.informatica {
+  display: inline-block;
+  width: 33%;
+}
+@media screen and (min-width:0px) and (max-width:500px) {
+  .linkbutton {
+    margin-top: 2rem;
+  }
+  .col-md-10, .col-md-4, .col-md-8 {
+    margin: 1rem;
+  }
+  .loeckbutton {
+    width: 40%;
+    margin-left: calc(50% - 20%);
+  }
+  .school, .socials, .informatica {
+    width: 100%;
+  }
+  li {
+    float: left;
+  }
+ .linkbutton {
+   width: 100%;
+ }
+}
