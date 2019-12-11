@@ -32,3 +32,12 @@
   height: auto;
   margin-top: 56px;
 }
+li {
+  text-align: center;
+}
+li a {
+  text-decoration: none!important;
+  color: white!important;
+  transition: color .4s;
+  background-color: transparent;
+}

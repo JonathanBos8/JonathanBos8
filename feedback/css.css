@@ -1,0 +1,27 @@
+.feedbackje {
+  padding: 2rem;
+  background-color: #e6e6e6;
+  border-radius: .5rem;
+}
+.feedbackantwoord {
+  padding: 2rem;
+  background-color: #bfbfbf;
+  border-radius: .5rem;
+}
+.feedbackpage {
+  margin-top: 56px;
+}
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: calc(50% - 1.5px);
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.pijltje {
+  margin: 0px;
+}
