@@ -50,7 +50,7 @@ footer ul {
   .linkbutton {
     margin-top: 2rem;
   }
-  .col-md-10, .col-md-4, .col-md-8 {
+  .col-md-10, .col-md-4, .col-md-8, .col-md-12 {
     margin: 1rem;
   }
   .loeckbutton {
@@ -58,7 +58,7 @@ footer ul {
     margin-left: calc(50% - 20%);
   }
   .school, .socials, .informatica {
-    width: 100%;
+    width: 15%;
   }
   li {
   }
@@ -68,7 +68,7 @@ footer ul {
  }
 }
 @media screen and (min-width:0px) and (max-width:1000px) {
-  .col-md-10, .col-md-4, .col-md-8 {
+  .col-md-10, .col-md-4, .col-md-8, .col-md-12 {
     margin: 1rem;
   }
 }

@@ -19,3 +19,14 @@
   margin-top: 100px;
   margin-left: 50px;
 }
+@media screen and (min-width:0px) and (max-width:500px) {
+  h1 {
+    font-size: 30px;
+  }
+  .nieuwemop {
+    top: 80%;
+  }
+  .moppengenerator {
+    height: 500px;
+  }
+}
