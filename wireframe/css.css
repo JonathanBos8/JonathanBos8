@@ -1,0 +1,9 @@
+.container-fluid {
+  margin-top:56px;
+}
+.wireframe {
+    padding: 2rem;
+    background-color: #e6e6e6;
+    border-radius: .5rem;
+    margin: 1rem;
+}
