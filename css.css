@@ -32,6 +32,9 @@
   height: auto;
   margin-top: 56px;
 }
+.legeRij {
+  color:transparent;
+}
 li {
   text-align: center;
 }

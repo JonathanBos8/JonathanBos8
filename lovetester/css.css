@@ -4,6 +4,9 @@
   border-radius: .5rem;
   height: 750px;
 }
+.legeRij {
+  color:transparent;
+}
 #tester {
   transform: translate(-50%, -50%);
   position: absolute;

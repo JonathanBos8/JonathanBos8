@@ -11,6 +11,9 @@
 .feedbackpage {
   margin-top: 56px;
 }
+.legeRij {
+  color:transparent;
+}
 i {
   border: solid black;
   border-width: 0 3px 3px 0;
